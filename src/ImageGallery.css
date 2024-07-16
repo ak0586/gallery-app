@@ -1,0 +1,23 @@
+/* ImageGallery.css */
+.image-gallery {
+    display:grid;
+    grid-auto-flow:dense;
+    border:5px solid rgb(91, 219, 45);
+    border-radius:2cap;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 10px;
+    
+    background-color: darkgray;
+  }
+  
+  .image-gallery img {
+    /* flex:3 4 auto; */
+    max-width: 95%;
+    border-style: solid;
+    border-radius: 1cap;
+    color: blue;
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }

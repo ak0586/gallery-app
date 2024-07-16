@@ -1,0 +1,29 @@
+/* Modal.css */
+.modal {
+    position:fixed;
+    top: 0;
+    left: 2%;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px greenyellow;
+    border-radius: 2%;
+  }
+  
+  .modal button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #ec0d0d;
+    font-weight: 1000;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }

@@ -1,0 +1,17 @@
+/* Image.css */
+.image {
+ 
+  position: relative;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s;
+  }
+  
+  .image:hover {
+   border: 5px solid red;
+   border-radius: 1cap;
+    transform: scale(1.1);
+    z-index: 1;
+  }
